@@ -24,12 +24,12 @@ const code = ref<string | null>(null);
       </code>.
       </p>
       <p class="mb-2">
-        Keep in mid, the classes you supply get added to the existing ones and do not replace them, so those can still
+        Keep in mind, the classes you supply get added to the existing ones and do not replace them, so those can still
         be used.
       </p>
       <p>
         For the sake of example, here's a version that adds more space in the middle, between the 3rd and 4th
-        characters.
+        characters:
       </p>
     </div>
 
