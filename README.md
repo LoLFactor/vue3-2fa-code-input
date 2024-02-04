@@ -9,7 +9,7 @@ See it in action in the [interactive documentation](https://lolfactor.github.io/
 First, install the package using your favorite package manager:
 
 ```
-<your-favorite-package-manager> install @loltech/vue-2fa-code-input
+<your-favorite-package-manager> install @loltech/vue3-2fa-code-input
 ```
 
 then import the component and use it:
@@ -18,7 +18,7 @@ then import the component and use it:
 
 <script setup lang="ts">
   import { ref } from 'vue';
-  import Vue2FACodeInput from '@loltech/vue-2fa-code-input';
+  import Vue2FACodeInput from '@loltech/vue3-2fa-code-input';
 
   const code = ref<string | null>(null);
 </script>
