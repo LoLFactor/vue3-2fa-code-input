@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue3-2fa-code-input/',
   build: {
     outDir: 'docs'
   },
