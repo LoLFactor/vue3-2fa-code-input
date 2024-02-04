@@ -1,3 +1,9 @@
+<p align="center">
+  <img alt="npm type definitions" src="https://img.shields.io/npm/types/@loltech/vue3-2fa-code-input">
+  <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@loltech/vue3-2fa-code-input">
+  <img alt="GitHub" src="https://img.shields.io/github/license/LoLFactor/vue3-2fa-code-input">
+</p>
+
 # Vue 3 2FA Code Input
 
 Vue 3 input component for 2FA codes. Is alpha-numerically agnostic, supports copy-pasting and is written in Typescript.
