@@ -2,7 +2,7 @@
 
 Vue 3 input component for 2FA codes. Is alpha-numerically agnostic, supports copy-pasting and is written in Typescript.
 
-See it in action in the [interactive documentation](link-to-docs).
+See it in action in the [interactive documentation](https://lolfactor.github.io/vue3-2fa-code-input/).
 
 ## Getting started
 
@@ -32,12 +32,12 @@ then import the component and use it:
 
 ## Component props
 
-| Property                | Type          | Description                                                                                                                                                                                                             | Default         |
-|-------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
-| ```length```            | ```number```  | The 2FA code length.                                                                                                                                                                                                    | ```6```         |
-| ```autofocus```         | ```boolean``` | Whether to autofocus the input.                                                                                                                                                                                         | ```true```      |
-| ```updateImmediately``` | ```boolean``` | By default, the component only updates its ```modelValue``` reference when the code is complete, otherwise it sets it to ```null```. Set this to true to change the behaviour. See the difference live in the [docs](). | ```false```     |
-| ```inputClass```        | ```string```  | Custom CSS class to add to the individual character inputs.                                                                                                                                                             | ```undefined``` |
+| Property                | Type          | Description                                                                                                                                                                                                                                                                               | Default         |
+|-------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| ```length```            | ```number```  | The 2FA code length.                                                                                                                                                                                                                                                                      | ```6```         |
+| ```autofocus```         | ```boolean``` | Whether to autofocus the input.                                                                                                                                                                                                                                                           | ```true```      |
+| ```updateImmediately``` | ```boolean``` | By default, the component only updates its ```modelValue``` reference when the code is complete, otherwise it sets it to ```null```. Set this to true to change the behaviour. See the difference live in the [docs](https://lolfactor.github.io/vue3-2fa-code-input/#immediate-updates). | ```false```     |
+| ```inputClass```        | ```string```  | Custom CSS class to add to the individual character inputs.                                                                                                                                                                                                                               | ```undefined``` |
 
 ## Styling
 
@@ -46,4 +46,4 @@ container ```div```with an arbitrary number of ```input```s inside. By default, 
 supply styles for. These are ```vue3-2fa-code-input``` for the container and ```vue3-2fa-code-input-box``` for the
 individual inputs.
 
-See a quick example in the [docs]().
+See a quick example in the [docs](https://lolfactor.github.io/vue3-2fa-code-input/#styling).
