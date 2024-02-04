@@ -4,7 +4,7 @@ import SidebarLink from '@/components/docs/SidebarLink.vue';
 
 <template>
   <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-white dark:bg-gray-900 px-6">
-    <h1 class="dark:text-white py-4">Vue3 2FA Code Input</h1>
+    <h1 class="dark:text-white py-4">Vue 3 2FA Code Input</h1>
     <nav class="flex flex-1 flex-col">
       <ul role="list" class="flex flex-1 flex-col gap-y-7">
         <li>

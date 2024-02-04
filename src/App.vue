@@ -57,7 +57,7 @@ const sidebarOpen = ref(false);
         <span class="sr-only">Open sidebar</span>
         <Bars3Icon class="h-6 w-6" aria-hidden="true"/>
       </button>
-      <div class="flex-1 text-sm font-semibold leading-6 text-white">Vue3 2FA Code Input</div>
+      <div class="flex-1 text-sm font-semibold leading-6 text-white">Vue 3 2FA Code Input</div>
     </div>
 
     <main class="py-10 lg:pl-72">
