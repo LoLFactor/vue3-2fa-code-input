@@ -1,0 +1,33 @@
+@import "_tailwind.pcss";
+
+@layer base {
+    body {
+        @apply bg-white dark:bg-gray-800 text-gray-950 dark:text-white leading-6;
+    }
+
+    code {
+        @apply inline-block px-0.5 border-[1px] bg-gray-100 dark:bg-gray-900 leading-5 max-h-5;
+    }
+}
+
+@layer components {
+    .vue3-2fa-code-input {
+        @apply flex gap-4;
+    }
+
+    .vue3-2fa-code-input-box {
+        @apply block w-8 rounded-md border-[1px] bg-transparent border-gray-200 dark:border-gray-50 py-1.5 text-center text-gray-900 dark:text-white shadow-sm focus-visible:outline focus-visible:outline-indigo-500;
+    }
+
+    .spaced-code-input {
+        & .vue3-2fa-code-input-box {
+            &:nth-child(3) {
+                @apply mr-4;
+            }
+
+            &:nth-child(4) {
+                @apply ml-4;
+            }
+        }
+    }
+}
